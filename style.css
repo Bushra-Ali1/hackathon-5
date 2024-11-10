@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.2cm;
+}
+
+.container {
+    width: 40%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color:cornsilk;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 15px;
+} 
+
+.form-group input,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto; /* Center button with margin */
+    width: 50%; /* Long horizontal button */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Resume Output Section */
+.resume-output {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.resume-output h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.resume-output p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+/* Styling for Sections */
+.resume-output .section {
+    margin-bottom: 20px; /* Adds space between sections */
+}
+
+/* Remove bullet points from lists in resume */
+.resume-output ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume-output ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+[contenteditable="true"]:focus {
+    border: 1px solid #007BFF;
+    background-color: #f1f1f1;
+    outline: none;}
